@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jessy Matta</title>
+    </head>
+
+    <body>
+        <center><h1>Jessy Matta's Portfolio</h1></body></center>
+        <!-- About me section -->
+        <h1>About me</h1>
+        <p>Hello! I'm Jessy Matta and I'm a graduate mathematics student and a software developer.</p>
+        <img width="210px" height="200px" src="./image_1.png"/>
+
+        <h1>List of projects</h1>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+
+        <!-- Questions section -->
+        <h1>Ask me anything</h1>
+
+        <form>
+            <table>
+                <!-- Input Name -->
+                <tr>
+                    <td>Name:</td>
+                    <td><input placeholder="Enter your name"></td>
+                </tr>
+
+                <!-- Input Email -->
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="mail" placeholder="Enter your email address"></td>
+                </tr>
+
+                <!-- Input Nationality -->
+                <tr>
+                    <td>Nationality:</td>
+                    <td>
+                        <input type="radio" name="nationality"><label>Lebanese</label>
+                        <input type="radio" name="nationality"><label>International</label>
+                    </td>    
+                </tr>
+
+                <!-- Input Phone number -->
+                <tr>
+                    <td>
+                        Phone number:
+                    </td>
+                    <td>
+                        <select>
+                            <option>961</option>
+                            <option>971</option>
+                            <option>1</option>
+                            <option>44</option>
+                        </select>
+                        <input type="tel" placeholder="7*******">
+                    </td>
+                </tr>
+
+                <!-- Input question's type -->
+                <tr>
+                    <td>
+                        Select your question's type:
+                    </td>
+                    <td>
+                        <select>
+                            <option>--Please choose an option--</option> 
+                            <option>Project Inquiry</option>
+                            <option>General question</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <!-- Question Input -->
+                <tr>
+                    <td><textarea rows="13" cols="50" wrap="virtual" placeholder="Type your question here."></textarea></td>
+                </tr>
+
+                <!-- How did you hear about us -->
+                <tr>
+                    <td>
+                        <br>How did you hear about me?<br>
+                        <input type="checkbox"> <label>Google search</label><br>
+                        <input type="checkbox"> <label>From a friend, family member or coworker</label><br>
+                        <input type="checkbox"> <label>Previous Projects</label><br>
+                        <input type="checkbox"> <label>Other</label><br><br>
+                    </td>
+                </tr>
+
+                <!-- Submit and Reset buttons -->
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>    
+                </tr>
+            </table>
+            
+        </form>
+
+        <!-- Schedule an appointment section -->
+        <form>
+            <h1>Schedule an appointment</h1>
+            <label>Schedule an appointment</label>
+            <input type="datetime-local">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+
+        <br>
+        <!-- Footer -->
+        <footer>
+            <p>Check my LinkedIn profile <a href="https://www.linkedin.com" target="_blank">here</a></p>
+            <label>Before leaving please take a second to rate this website. (On a scale of 0-to-10)</label>
+            <input type="range" min="0" max="10">
+        </footer>    
+    </body>
+</html>
